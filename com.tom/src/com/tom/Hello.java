@@ -3,12 +3,16 @@ package com.tom;
 public class Hello {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-    int age=19;
-    System.out.println (age);
+    /*int age=19;
     float weight = 65.6f;
-    short number = 6;
-    age = number; 		
+    short number = 19;
+    age = number;
+    float height = 1.7f;
+    float bmi = weight/(height*height);
+    System.out.println (weight);
+    System.out.println (age);
+    System.out.println (height);
+    System.out.println (bmi);*/
 	}
 
 }
