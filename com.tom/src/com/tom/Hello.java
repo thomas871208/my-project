@@ -22,6 +22,12 @@ public class Hello {
 
 		System.out.println(3 <= 5);
 		
+		
+		Person person1 = new Person();
+		person1.name = "TTS";
+		person1.weight = 66.6f;
+		person1.height = 1.7f;
+		
 	}
 
 }
