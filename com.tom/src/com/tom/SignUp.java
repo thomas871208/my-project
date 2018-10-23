@@ -10,9 +10,21 @@ public class SignUp {
 		String line = scanner.nextLine();
 		//boolean adult = line.equals("Yes") || line.equals("yes");     bad
 		boolean adult = line.equalsIgnoreCase("yes");
-		/*if adult {
+		if (adult) {
 			System.out.println("welcome, what is your age?");
-		}*/
+			int age = scanner.nextInt();
+			scanner.nextLine();
+			System.out.println("what is your name?");
+			String name = scanner.nextLine();
+			System.out.println("what is your nickname?");
+			String nickname = scanner.nextLine();
+			System.out.println("This is your personal information");
+			System.out.println( age+"/"+name+"/"+nickname);
+		}
+		else{
+			System.out.println("Poor kid, thank you for your using, see ya!");
+		}
+		}
 	}
 
-}
+
