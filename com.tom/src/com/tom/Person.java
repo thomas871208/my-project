@@ -5,12 +5,9 @@ public class Person {
 	float weight;
 	float height;
 	
-	public Person() {
-
-	/*Person(String "name", loat weight, float height );{
-		this.name = name;
+	public Person(float weight, float height) {
 		this.weight = weight;
 		this.height = height;
-	}*/
 	}
+	
 }

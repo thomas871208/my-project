@@ -1,5 +1,7 @@
 package com.tom;
 
+import java.util.*;
+
 public class Hello {
 
 	public static void main(String[] args) {
@@ -23,11 +25,14 @@ public class Hello {
 		System.out.println(3 <= 5);
 		
 		
-		Person person1 = new Person();
+		/*Person person1 = new Person();
 		person1.name = "TTS";
 		person1.weight = 66.6f;
-		person1.height = 1.7f;
+		person1.height = 1.7f;*/
 		
+		Scanner scanner = new Scanner(System.in);
+		String name = scanner.nextLine();
+		System.out.println(name);
 	}
 
 }
