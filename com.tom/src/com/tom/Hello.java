@@ -30,9 +30,45 @@ public class Hello {
 		person1.weight = 66.6f;
 		person1.height = 1.7f;*/
 		
+		Random random = new Random();
+		int number =  (random.nextInt(100)+1);
+		System.out.println(number);
+		
+		/*while () {
+			
+		}
+		是迴圈方法*/
+		
 		Scanner scanner = new Scanner(System.in);
-		String name = scanner.nextLine();
-		System.out.println(name);
+		int secret = scanner.nextInt();	
+		int real =(random.nextInt(100)+1);
+		if (secret > real) {
+			System.out.println("1~" + secret);
+		}
+		else  {
+			System.out.println(secret + "~100");
+		}
+			//猜數子後繼續	
+		Scanner scanner1 = new Scanner(System.in);
+		String name = scanner1.nextLine();
+		System.out.println("your name is"+ name);
+		//打名子後繼續
+		
+		int n = 3/50;
+		int k = (int)(3/5);
+		int m = 5%3;
+		System.out.println(n);
+		System.out.println(k);
+		System.out.println(m);
+		String name1 = "TTS";
+		int age1 = 20;
+		System.out.printf("Hello, %s, your age is %d"+"\n", name1, age1 );
+		System.out.println(4.0/3.0);
+		System.out.printf( "%.5f"+"\n" ,4.0/3.0);
+		//.5是四捨五入到第五位
+		
+		double c = 24;
+		System.out.println(c*(9.0/5.0)+32);
 	}
 
 }
