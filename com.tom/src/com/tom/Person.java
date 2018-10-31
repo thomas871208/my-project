@@ -11,3 +11,4 @@ public class Person {
 	}
 	
 }
+//建構子不會，好像要在Hello打什麼和註解什麼

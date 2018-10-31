@@ -12,3 +12,4 @@ public class RangeTester {
 	}
 
 }
+//靠自己打對程式很開心

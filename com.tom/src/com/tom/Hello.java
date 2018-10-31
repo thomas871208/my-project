@@ -30,6 +30,7 @@ public class Hello {
 		person1.weight = 66.6f;
 		person1.height = 1.7f;*/
 		
+		//用建構子做bmi還不太懂
 		Random random = new Random();
 		int number =  (random.nextInt(100)+1);
 		System.out.println(number);
@@ -48,7 +49,7 @@ public class Hello {
 		else  {
 			System.out.println(secret + "~100");
 		}
-			//猜數子後繼續	
+			//猜數字後繼續	
 		Scanner scanner1 = new Scanner(System.in);
 		String name = scanner1.nextLine();
 		System.out.println("your name is"+ name);
