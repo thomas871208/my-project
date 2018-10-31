@@ -16,6 +16,14 @@ public class Hello {
 		 * System.out.println(name+"\t"+english+"\t"+math+"\t"+(english+math)/2)
 		 * ;
 		 */
+		
+		int a = 5;
+		while (a<10) {
+			System.out.println("期中要all趴");
+			a = a + 1;
+		}		
+		//沒有a = a+1他會一直打，會變病毒喔
+		
 		Student stu = new Student();
 		stu.name = "TTS";
 		stu.english = 70;
