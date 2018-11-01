@@ -33,8 +33,10 @@ public class Hello {
 		System.out.println(3 <= 5);
 		
 		
-		/*Person person1 = new Person();
-		person1.name = "TTS";
+		Person person1 = new Person(66.6f,1.7f);
+		System.out.println(person1.bmi());
+		person1.hello();
+		/*person1.name = "TTS";
 		person1.weight = 66.6f;
 		person1.height = 1.7f;*/
 		
