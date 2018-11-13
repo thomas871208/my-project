@@ -16,6 +16,11 @@ public class Hello {
 		 * System.out.println(name+"\t"+english+"\t"+math+"\t"+(english+math)/2)
 		 * ;
 		 */
+		for (int i = 1 ; i >= 5 ; i = i+1) {
+			System.out.println(i);
+			//for (int x; 條件; 變質){
+		    //  }
+		}
 		
 		int a = 5;
 		while (a<10) {
