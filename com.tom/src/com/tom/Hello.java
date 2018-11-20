@@ -29,11 +29,11 @@ public class Hello {
 		}		
 		//沒有a = a+1他會一直打，會變病毒喔
 		
-		Student stu = new Student();
+		/*Student stu = new Student();
 		stu.name = "TTS";
 		stu.english = 70;
 		stu.math = 90;
-		stu.print();
+		stu.print();*/
 
 		System.out.println(3 <= 5);
 		
