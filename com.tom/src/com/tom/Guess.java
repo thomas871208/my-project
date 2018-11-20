@@ -19,30 +19,34 @@ public class Guess {
 		int secret = scanner.nextInt();
 			if(secret > real){
 				System.out.println("Your guess is: " + secret);
-				System.out.println("lower" + count +"/4" );
+				System.out.println("lower (" + count +"/4)" );
 			}
 			else if (secret < real) {
 				    System.out.println("Your guess is: " + secret);
-					System.out.println("higher" + count + "/4");
-				}	
+					System.out.println("higher (" + count + "/4)");
+				}
+		
 			else {
 				if(count<3){
 					System.out.println("Exllent! the real numebr is :" + real);
 					break;
 				}
-				else if (count<4){
-						System.out.println("Great! the real numebr is :" + real);
-						break;
-					}
+				
 				else {
-					System.out.println("Are you stupid?");
-					break;
+					System.out.println("Great! the real numebr is :" + real);
+						break;
 				}
 					
 			}
-			
+			if(real != secret && count == 4 ) {
+					System.out.println("Are you stupid?");
+					break;
 		}
-
+			else if(count == 4) {
+				break;
+			}
+		}	
 	}
 
 }
+	
